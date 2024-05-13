@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Schedule </router-link> |
+      <router-link to="/device-log">Device Log</router-link> |
+      <router-link to="/attendance">Attendance</router-link>
     </nav>
     <router-view/>
   </div>
@@ -13,7 +14,7 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
 }
 
